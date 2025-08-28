@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Verbose Status (Show detailed startup/shutdown messages)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"verbosestatus"=dword:00000001

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Bypass TPM and CPU checks to Install Windows 11 Updates
+; This allows installation of Windows 11 on unsupported hardware
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+"AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001

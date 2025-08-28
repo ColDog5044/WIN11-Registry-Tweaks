@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Remove "Recommended" section from Start menu
+; Cleans up the Start menu by hiding recommended files/apps
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"HideRecommendedSection"=dword:00000001

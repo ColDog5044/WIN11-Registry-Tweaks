@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable Windows Widgets
+; Removes the widgets panel from the taskbar completely
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Widgets]
+"AllowWidgets"=dword:00000000

@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+; WINDOWS 11 BYPASS REQUIREMENTS - ALL TWEAKS
+; This file combines all registry tweaks needed to bypass Windows 11 hardware requirements
+
+; Bypass TPM and CPU checks to Install Windows 11 Updates
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+"AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001
+
+; Bypass TPM requirement during installation
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassTPMCheck"=dword:00000001
+
+; Bypass CPU requirement during installation
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassCPUCheck"=dword:00000001
+
+; Bypass RAM requirement during installation (4GB minimum bypass)
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassRAMCheck"=dword:00000001
+
+; Bypass Secure Boot requirement during installation
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassSecureBootCheck"=dword:00000001

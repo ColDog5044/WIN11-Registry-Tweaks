@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Faster Internet Speed (Network performance optimization)
+; Increases IRP stack size for better network throughput
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"IRPStackSize"=dword:00000032

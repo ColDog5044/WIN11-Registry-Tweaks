@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
 
+; Faster Shutdown (Reduce service shutdown wait time)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
 "WaitToKillServiceTimeout"="1000"
